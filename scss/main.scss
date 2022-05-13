@@ -7,6 +7,7 @@
     height: 99vh;
     background-color: $MAIN_YELLOW;
     border: 4px solid $MAIN_BLACK;
+    overflow: hidden;
 
     @media (min-height: 800px) {
         height: 758px;

@@ -48,5 +48,6 @@ body {
 .wrapper .result {
   width: 100%;
   overflow: scroll;
+  text-decoration: none;
 }
 /*# sourceMappingURL=result.css.map */
