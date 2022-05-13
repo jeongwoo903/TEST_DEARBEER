@@ -11,22 +11,10 @@
     @media (min-height: 800px) {
         height: 758px;
       }
-
-    .top_wave {
+    
+    .main {
         width: inherit;
-        height: 100vh;
     }
 
-    a.main_contents {
-        width: 65%;
-        height: 100vh;
-        text-decoration: none;
-    }
 
-    .bottom_wave {
-        display: flex;
-        width: inherit;
-        flex-direction: column-reverse;
-        height: 100vh;
-    }
 }

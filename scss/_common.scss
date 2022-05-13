@@ -1,20 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
-// @font-face {
-//   font-family: 'SuncheonB';
-//   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/SuncheonB.woff') format('woff');
-//   font-weight: normal;
-//   font-style: normal;
-// }
-
 $MAIN_BLACK: #000000;
 $MAIN_YELLOW: #FFB800;
 $MAIN_WHITE: #FFFFFF;
 $BTN_ORANGE: #fd7e14;
 $BTN_GREEN: #9bcc50;
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 @mixin flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+body {
+  @include flex-center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }

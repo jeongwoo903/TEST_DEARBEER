@@ -1,16 +1,5 @@
 @import "common";
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    @include flex-center;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-}
 
 .wrapper {
     @include flex-center;
